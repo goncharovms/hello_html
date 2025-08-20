@@ -1,0 +1,9 @@
+kind: wasmer.io/App.v0
+package: '.'
+capabilities:
+  ssh_server:
+    enabled: true
+    users:
+    - passwords:
+      - password: qweQWE1!
+        type: plain
